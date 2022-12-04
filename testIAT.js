@@ -1,4 +1,4 @@
-define(['pipAPI', 'https://shodout.github.io/test/IATAPI.js'], function(APIConstructor, iatExtension){
+define(['pipAPI', 'https://RRIC-IPS.github.io/IAT/IATAPI.js'], function(APIConstructor, iatExtension){
     var API = new APIConstructor();
 
 return iatExtension({
