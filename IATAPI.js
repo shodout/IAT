@@ -70,7 +70,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 					height : 4 //Used to position the "Or" in the combined block.
 				},
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word: 'test'},
+					{word: 'awful'},
 					{word: 'failure'},
 					{word: 'agony'},
 					{word: 'hurt'},
@@ -94,7 +94,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 					{word: 'laughter'},
 					{word: 'happy'},
 					{word: 'glorious'},
-					{word: 'testjoy'},
+					{word: 'joy'},
 					{word: 'wonderful'},
 					{word: 'peace'},
 					{word: 'pleasure'},
