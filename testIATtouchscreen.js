@@ -3,9 +3,9 @@ define(['pipAPI', 'https://shodout.github.io/IAT/testAPItouchscreen.js'], functi
 
 return iatExtension({
 		category1 : {
-			name : 'Female', //Will appear in the data.
+			name : 'Family', //Will appear in the data.
 			title : {
-				media : {word : 'Female'}, //Name of the category presented in the task.
+				media : {word : 'Family'}, //Name of the category presented in the task.
 				css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
@@ -22,9 +22,9 @@ return iatExtension({
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
 		},	
 		category2 :	{
-			name : 'Male', //Will appear in the data.
+			name : 'Career', //Will appear in the data.
 			title : {
-				media : {word : 'Male'}, //Name of the category presented in the task.
+				media : {word : 'Career'}, //Name of the category presented in the task.
 				css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
