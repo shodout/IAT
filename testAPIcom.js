@@ -63,42 +63,40 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			},
 			attribute1 :
 			{
-				name : 'Bad words',
+				name : 'Career',
 				title : {
-					media : {word : 'Bad words'},
+					media : {word : 'Career'},
 					css : {color:'#0000FF','font-size':'1.8em'},
 					height : 4 //Used to position the "Or" in the combined block.
 				},
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word: 'awful'},
-					{word: 'failure'},
-					{word: 'agony'},
-					{word: 'hurt'},
-					{word: 'horrible'},
-					{word: 'terrible'},
-					{word: 'nasty'},
-					{word: 'evil'}
+					{word: 'Career'},
+					{word: 'Corporation'},
+					{word: 'Salary'},
+					{word: 'Office'},
+					{word: 'Professional'},
+					{word: 'Management'},
+					{word: 'Business'},
 				],
 				//Stimulus css
 				stimulusCss : {color:'#0000FF','font-size':'2.3em'}
 			},
 			attribute2 :
 			{
-				name : 'Good words',
+				name : 'Family',
 				title : {
-					media : {word : 'Good words'},
+					media : {word : 'Family'},
 					css : {color:'#0000FF','font-size':'1.8em'},
 					height : 4 //Used to position the "Or" in the combined block.
 				},
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word: 'laughter'},
-					{word: 'happy'},
-					{word: 'glorious'},
-					{word: 'joy'},
-					{word: 'wonderful'},
-					{word: 'peace'},
-					{word: 'pleasure'},
-					{word: 'love'}
+					{word: 'Wedding'},
+					{word: 'Marriage'},
+					{word: 'Parents'},
+					{word: 'Relatives'},
+					{word: 'Family'},
+					{word: 'Home'},
+					{word: 'Children'},
 				],
 				//Stimulus css
 				stimulusCss : {color:'#0000FF','font-size':'2.3em'}
