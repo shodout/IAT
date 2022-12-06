@@ -1,41 +1,37 @@
 define(['pipAPI', 'https://shodout.github.io/IAT/testAPItouchscreen.js'], function(APIConstructor, iatExtension){
     var API = new APIConstructor();
 
-return iatExtension({
+	return iatExtension({
 		category1 : {
-			name : 'Family', //Will appear in the data.
+			name : 'Female', //Will appear in the data.
 			title : {
-				media : {word : 'Family'}, //Name of the category presented in the task.
+				media : {word : 'Female'}, //Name of the category presented in the task.
 				css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-    		    {image : 'Wedding'},
-			{word : 'Marriage'},
-			{word : 'Parents'}, 
-		    	{word : 'Relatives'}, 
-    			{word : 'Family'}, 
-    			{word : 'Home'}
-			{word : 'Children'}
+    		    	{word : 'Rebecca'}, 
+    			{word : 'Michelle'}, 
+    			{word : 'Emily'}, 
+    			{word : 'Julia'}, 
+    			{word : 'Anna'}, 
 			], 
 			//Stimulus css (style)
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
 		},	
 		category2 :	{
-			name : 'Career', //Will appear in the data.
+			name : 'Male', //Will appear in the data.
 			title : {
-				media : {word : 'Career'}, //Name of the category presented in the task.
+				media : {word : 'Male'}, //Name of the category presented in the task.
 				css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-    		    {word : 'Career'},
-			{word : 'Corporation'},
-			{word : 'Salary'},
-			{word : 'Office'},
-		    	{word : 'Professional'},
-       			{word : 'Management'}
-			{word : 'Business'}
+    		    	{word: 'Ben'}, 
+    			{word: 'Paul'}, 
+    			{word: 'Daniel'}, 
+    			{word: 'John'}, 
+    			{word: 'Jeffrey'}, 
 			], 
 			//Stimulus css
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
