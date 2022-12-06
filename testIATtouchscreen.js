@@ -11,12 +11,12 @@ return iatExtension({
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
     		    {image : 'Wedding'},
-			{image : 'Marriage'},
-			{image : 'Parents'}, 
-		    	{image : 'Relatives'}, 
-    			{image : 'Family'}, 
-    			{image : 'Home'}
-			{image : 'Children'}
+			{word : 'Marriage'},
+			{word : 'Parents'}, 
+		    	{word : 'Relatives'}, 
+    			{word : 'Family'}, 
+    			{word : 'Home'}
+			{word : 'Children'}
 			], 
 			//Stimulus css (style)
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
@@ -29,12 +29,13 @@ return iatExtension({
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-    		    {image : 'Chinese1.jpg'},
-			{image : 'Chinese2.jpg'},
-			{image : 'Chinese3.jpg'},
-			{image : 'Chinese4.jpg'},
-		    	{image : 'Chinese5.jpg'},
-       			{image : 'Chinese6.jpg'}
+    		    {word : 'Career'},
+			{word : 'Corporation'},
+			{word : 'Salary'},
+			{word : 'Office'},
+		    	{word : 'Professional'},
+       			{word : 'Management'}
+			{word : 'Business'}
 			], 
 			//Stimulus css
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
