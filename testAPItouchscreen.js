@@ -63,42 +63,46 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			},
 			attribute1 :
 			{
-				name : 'Female',
+				name : 'Career',
 				title : {
-					media : {word : 'Female'},
+					media : {word : 'Career'},
 					css : {color:'#0000FF','font-size':'1.8em'},
 					height : 4 //Used to position the "Or" in the combined block.
 				},
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word: 'Rebecca'},
-					{word: 'Michelle'},
-					{word: 'Emily'},
-					{word: 'Julia'},
-					{word: 'Anna'},
+					{word: 'Career'},
+					{word: 'Corporation'},
+					{word: 'Salary'},
+					{word: 'Office'},
+					{word: 'Professional'},
+					{word: 'Management'},
+					{word: 'Business'},
 				],
 				//Stimulus css
 				stimulusCss : {color:'#0000FF','font-size':'2.3em'}
 			},
 			attribute2 :
 			{
-				name : 'Male',
+				name : 'Family',
 				title : {
-					media : {word : 'Male'},
+					media : {word : 'Family'},
 					css : {color:'#0000FF','font-size':'1.8em'},
 					height : 4 //Used to position the "Or" in the combined block.
 				},
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word: 'Ben'},
-					{word: 'Paul'},
-					{word: 'Daniel'},
-					{word: 'John'},
-					{word: 'Jeffrey'},
+					{word: 'Wedding'},
+					{word: 'Marriage'},
+					{word: 'Parents'},
+					{word: 'Relatives'},
+					{word: 'Family'},
+					{word: 'Home'},
+					{word: 'Children'},
 				],
 				//Stimulus css
 				stimulusCss : {color:'#0000FF','font-size':'2.3em'}
 			},
 
-			base_url : {//Where are your images at?
+			base_url : {//Where are your images at? edit if using images for stimulus
 				image : '/implicit/user/yba/pipexample/biat/images/'
 			},
 
