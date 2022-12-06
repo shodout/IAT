@@ -3,37 +3,36 @@ define(['pipAPI', 'https://shodout.github.io/IAT/testAPIcom.js'], function(APICo
 
 	return iatExtension({
 		category1 : {
-			name : 'Minorities', //Will appear in the data.
+			name : 'Female', //Will appear in the data.
 			title : {
-				media : {word : 'Minorities'}, //Name of the category presented in the task.
+				media : {word : 'Female'}, //Name of the category presented in the task.
 				css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-    		    {image : 'Minorities1.jpg'}, 
-    			{image : 'Minorities2.jpg'}, 
-    			{image : 'Minorities3.jpg'}, 
-    			{image : 'Minorities4.jpg'}, 
-    			{image : 'Minorities5.jpg'}, 
-    			{image : 'Minorities6.jpg'}
+    		    	{word : 'Rebecca'}, 
+    			{word : 'Michelle'}, 
+    			{word : 'Emily'}, 
+    			{word : 'Julia'}, 
+    			{word : 'Anna'}, 
 			], 
 			//Stimulus css (style)
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
 		},	
 		category2 :	{
-			name : 'Chinese', //Will appear in the data.
+			name : 'Male', //Will appear in the data.
 			title : {
-				media : {word : 'Chinese'}, //Name of the category presented in the task.
+				media : {word : 'Male'}, //Name of the category presented in the task.
 				css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-    		    {image : 'Chinese1.jpg'}, 
-    			{image : 'Chinese2.jpg'}, 
-    			{image : 'Chinese3.jpg'}, 
-    			{image : 'Chinese4.jpg'}, 
-    			{image : 'Chinese5.jpg'}, 
-    			{image : 'Chinese6.jpg'}			], 
+    		    	{word: 'Ben'}, 
+    			{word: 'Paul'}, 
+    			{word: 'Daniel'}, 
+    			{word: 'John'}, 
+    			{word: 'Jeffrey'}, 
+			], 
 			//Stimulus css
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
 		},	
