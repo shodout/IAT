@@ -1,4 +1,4 @@
-define(['pipAPI', 'https://shodout.github.io/IAT/testAPItouchscreen.js'], function(APIConstructor, iatExtension){
+define(['pipAPI', 'https://shodout.github.io/IAT/gendercareerAPItouchscreen.js'], function(APIConstructor, iatExtension){
     var API = new APIConstructor();
 
 	return iatExtension({
