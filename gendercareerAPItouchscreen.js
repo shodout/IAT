@@ -317,10 +317,10 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			//attribute1, and attribute2 will be replaced with the name of attribute1 and attribute2.
 			//categoryA is the name of the category that is found to be associated with attribute1,
 			//and categoryB is the name of the category that is found to be associated with attribute2.
-			fb_strong_Att1WithCatA_Att2WithCatB : 'Your responses suggested a strong automatic tendency for categoryB over categoryA.',
-			fb_moderate_Att1WithCatA_Att2WithCatB : 'Your responses suggested a moderate automatic tendency for categoryB over categoryA.',
-			fb_slight_Att1WithCatA_Att2WithCatB : 'Your responses suggested a slight automatic tendency for categoryB over categoryA.',
-			fb_equal_CatAvsCatB : 'Your responses suggested no automatic tendency between categoryA and categoryB.',
+			fb_strong_Att1WithCatA_Att2WithCatB : 'Your responses suggested a strong automatic tendency for associating categoryB with attribute2 related words over categoryA being associated with attribute2 related words.',
+			fb_moderate_Att1WithCatA_Att2WithCatB : 'Your responses suggested a moderate automatic tendency for associating categoryB with attribute2 related words over categoryA being associated with attribute2 related words.',
+			fb_slight_Att1WithCatA_Att2WithCatB : 'Your responses suggested a slight automatic tendency for associating categoryB with attribute2 related words over categoryA being associated with attribute2 related words.',
+			fb_equal_CatAvsCatB : 'Your responses suggested no automatic tendency between categoryA and categoryB being associated with attribute1 or attribute2 related words.',
 
 			//Error messages in the feedback
 			manyErrors: 'There were too many errors made to determine a result.',
